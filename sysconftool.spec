@@ -6,7 +6,6 @@ Release:	1
 License:	GPL
 Group:		Development/Building
 Group(de):	Entwicklung/Bauen
-Group(fr):	Librairies
 Group(pl):	Programowanie/Budowanie
 Source0:	http://download.sourceforge.net/courier/%{name}-%{version}.tar.gz
 URL:		http://zekiller.skytech.org/coders_en.html
@@ -21,7 +20,7 @@ configuration files. sysconftool allows an existing application to be
 upgraded without losing the older version's configuration settings.
 
 %description -l pl
-sysconftool jest narzêdziem które pomaga instalowaæ pliki
+sysconftool jest narzêdziem, które pomaga instalowaæ pliki
 konfiguracyjne aplikacji. sysconftool pozwala na wymienienie
 istniej±cych aplikacji na nowsze wersje, bez straty starszych wersji
 plików konfiguracyjnych.

@@ -1,7 +1,7 @@
 Summary:	Macros for aclocal to install configuration files
 Summary(pl):	Makra dla aclocal do instalacji plików konfiguracyjnych
 Name:		sysconftool
-Version:	0.12
+Version:	0.13
 Release:	1
 License:	GPL
 Group:		Development/Building
@@ -30,10 +30,10 @@ plików konfiguracyjnych.
 %setup -q
 
 %build
+rm -f missing
 aclocal
 autoconf
-automake 
-
+automake -a -c 
 %configure 
 
 %{__make}

@@ -5,7 +5,7 @@ Version:	0.13
 Release:	1
 License:	GPL
 Group:		Development/Building
-Source0:	http://download.sourceforge.net/courier/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/courier/%{name}-%{version}.tar.gz
 # Source0-md5:	151d2e4777ebbf26d8c8d4c4733772e9
 URL:		http://zekiller.skytech.org/coders_en.html
 BuildArch:	noarch

@@ -30,8 +30,8 @@ plików konfiguracyjnych.
 rm -f missing
 aclocal
 autoconf
-automake -a -c 
-%configure 
+automake -a -c
+%configure
 
 %{__make}
 

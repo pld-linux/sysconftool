@@ -1,0 +1,11 @@
+--- sysconftool-0.14/sysconftool.m4.in.orig	2000-12-10 02:19:48.000000000 +0100
++++ sysconftool-0.14/sysconftool.m4.in	2004-02-22 03:34:52.818757384 +0100
+@@ -5,7 +5,7 @@
+ #
+ # AC_PROG_SYSCONFTOOL
+ 
+-AC_DEFUN(AC_PROG_SYSCONFTOOL,
++AC_DEFUN([AC_PROG_SYSCONFTOOL],
+ [
+ 
+ 	AC_PATH_PROGS(SYSCONFTOOL_PERL, perl5 perl, perl)

@@ -50,7 +50,10 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/sysconftool/*
+%attr(755,root,root) %{_datadir}/sysconftool/sysconftool
+%attr(755,root,root) %{_datadir}/sysconftool/sysconftoolcheck
+%attr(755,root,root) %{_datadir}/sysconftool/sysconftoolize.pl
+%{_datadir}/sysconftool/sysconftoolize.am
 %{_mandir}/man1/*
 %{_mandir}/man7/*
 %{_aclocaldir}/sysconftool.m4

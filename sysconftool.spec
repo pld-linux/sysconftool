@@ -1,5 +1,5 @@
-Summary:	macros for aclocal to install configuration files
-Summary(pl):	makra dla aclocal do instalacji plików konfiguracyjnych
+Summary:	Macros for aclocal to install configuration files
+Summary(pl):	Makra dla aclocal do instalacji plików konfiguracyjnych
 Name:		sysconftool
 Version:	0.12
 Release:	1
@@ -11,6 +11,8 @@ Group(pl):	Programowanie/Budowanie
 Source0:	http://download.sourceforge.net/courier/%{name}-%{version}.tar.gz
 URL:		http://zekiller.skytech.org/coders_en.html
 BuildArch:	noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

@@ -40,14 +40,13 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
 
-gzip -9nf AUTHORS NEWS ChangeLog
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS NEWS ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_datadir}/sysconftool/sysconftool
 %attr(755,root,root) %{_datadir}/sysconftool/sysconftoolcheck

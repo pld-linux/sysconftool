@@ -22,7 +22,7 @@ upgraded without losing the older version's configuration settings.
 %description -l pl
 sysconftool jest narzêdziem, które pomaga instalowaæ pliki
 konfiguracyjne aplikacji. sysconftool pozwala na wymienienie
-istniej±cych aplikacji na nowsze wersje, bez straty starszych wersji
+istniej±cych aplikacji na nowsze wersje bez straty starszych wersji
 plików konfiguracyjnych.
 
 %prep

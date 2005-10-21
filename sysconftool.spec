@@ -1,13 +1,12 @@
 Summary:	Macros for aclocal to install configuration files
 Summary(pl):	Makra dla aclocal do instalacji plików konfiguracyjnych
 Name:		sysconftool
-Version:	0.14
-Release:	2
-License:	GPL
+Version:	0.15
+Release:	1
+License:	GPL v2
 Group:		Development/Building
 Source0:	http://dl.sourceforge.net/courier/%{name}-%{version}.tar.bz2
-# Source0-md5:	899bd76c99c9654160c046e04f74d2b1
-Patch0:		%{name}-am18.patch
+# Source0-md5:	6dac08cba0bcb09e644a737c52c2d305
 URL:		http://zekiller.skytech.org/coders_en.html
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -27,7 +26,6 @@ plików konfiguracyjnych.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__aclocal}

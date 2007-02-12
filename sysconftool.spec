@@ -1,5 +1,5 @@
 Summary:	Macros for aclocal to install configuration files
-Summary(pl):	Makra dla aclocal do instalacji plików konfiguracyjnych
+Summary(pl.UTF-8):   Makra dla aclocal do instalacji plikÃ³w konfiguracyjnych
 Name:		sysconftool
 Version:	0.15
 Release:	1
@@ -18,11 +18,11 @@ sysconftool is a development utility that helps to install application
 configuration files. sysconftool allows an existing application to be
 upgraded without losing the older version's configuration settings.
 
-%description -l pl
-sysconftool jest narzêdziem, które pomaga instalowaæ pliki
+%description -l pl.UTF-8
+sysconftool jest narzÄ™dziem, ktÃ³re pomaga instalowaÄ‡ pliki
 konfiguracyjne aplikacji. sysconftool pozwala na wymienienie
-istniej±cych aplikacji na nowsze wersje bez straty starszych wersji
-plików konfiguracyjnych.
+istniejÄ…cych aplikacji na nowsze wersje bez straty starszych wersji
+plikÃ³w konfiguracyjnych.
 
 %prep
 %setup -q

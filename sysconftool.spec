@@ -1,16 +1,18 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	Macros for aclocal to install configuration files
 Summary(pl.UTF-8):	Makra dla aclocal do instalacji plików konfiguracyjnych
 Name:		sysconftool
-Version:	0.16
+Version:	0.17
 Release:	1
 License:	GPL v3 with OpenSSL exception
 Group:		Development/Building
 Source0:	http://downloads.sourceforge.net/courier/%{name}-%{version}.tar.bz2
-# Source0-md5:	cca4ee11427dc1c0462b861cd785cdf1
+# Source0-md5:	768f331596549864e2f2934497e94a39
 URL:		http://www.courier-mta.org/sysconftool/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	perl-base
+BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

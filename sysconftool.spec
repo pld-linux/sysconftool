@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Macros for aclocal to install configuration files
 Summary(pl.UTF-8):	Makra dla aclocal do instalacji plików konfiguracyjnych
 Name:		sysconftool

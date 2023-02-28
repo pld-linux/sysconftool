@@ -1,12 +1,12 @@
 Summary:	Macros for aclocal to install configuration files
 Summary(pl.UTF-8):	Makra dla aclocal do instalacji plików konfiguracyjnych
 Name:		sysconftool
-Version:	0.18
+Version:	0.21
 Release:	1
 License:	GPL v3 with OpenSSL exception
 Group:		Development/Building
 Source0:	https://downloads.sourceforge.net/courier/%{name}-%{version}.tar.bz2
-# Source0-md5:	3c94b7d8f8085a00125773b6104728de
+# Source0-md5:	eb98ca2b8b07a6d18612aa334d8deaf5
 URL:		http://www.courier-mta.org/sysconftool/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -59,5 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/sysconftool/sysconftoolize.am
 %{_mandir}/man1/sysconftool.1*
 %{_mandir}/man1/sysconftoolcheck.1*
+%{_mandir}/man1/sysconftoolize.1*
 %{_mandir}/man7/sysconftool.7*
 %{_aclocaldir}/sysconftool.m4
